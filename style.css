@@ -1,0 +1,629 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    overflow-x: hidden;
+}
+
+.contact-info
+{
+     display: flex;
+}
+.contact-div
+{
+     display: flex;
+     padding: 5px;
+     float: left;
+
+  
+}
+.phone-num
+{
+    display: flex;
+    margin: 5px ;
+    color:rgb(116, 114, 114) ;
+    
+}
+.social-media-icon
+{
+    float: right;
+}
+.contact-icon
+{
+    font-size: 18px;
+    margin: 5px;
+    color: rgb(9, 165, 185);
+    
+}
+.clear-div
+{
+    clear: both;
+}
+.vl{
+    border-left:1px solid rgb(116, 114, 114) ;
+    height: 15px;
+    margin-top: 10px;
+}
+.social-media-icon{
+   
+   margin: 5px;
+   text-align: right;
+   padding: 5px;
+}
+.media-icon:hover{
+    color: rgb(116, 114, 114);
+}
+.social-media-icon i{
+    font-size: 18px;
+    margin:0 5px ;
+}
+.divider
+{ 
+   margin-top: 0;
+   margin-bottom: 0;
+   
+}
+/* contact section end */
+
+/* navigatin section start */
+
+.navigation-section 
+{
+  
+   margin: 10px 0;
+}
+
+.text-logo
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(58, 223, 238);
+    border-radius: 2px;
+}
+
+.text-logo-span
+{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+}
+.search-section
+{
+    margin: 8px;
+}
+.search-btn
+{
+    background-color: white;
+    border: 1px solid rgb(133, 132, 132);;
+    height: 40px;
+    border-right: none;
+}
+.search-icon
+{
+    padding: 2px;
+    height: 34px; 
+}
+.search-input
+{
+    position: absolute;
+    border: none;  
+    height: 40px;
+    border: 1px solid rgb(133, 132, 132);
+}
+.search-input:focus
+{
+    border: none;
+}
+.nev-manu
+{
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color:  rgb(168, 175, 175);
+}
+.nev-manu:hover
+{
+    text-decoration: none;
+    color: rgb(70, 66, 66);
+}
+.login-btn
+{
+    margin-top: 8px;
+    font-size: 18px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    background-color: rgb(5, 199, 150);
+}
+/* welcome section */
+.welcome-section
+{
+    position: relative;
+    background-color: rgb(243, 240, 233);
+    padding-bottom: 30px;
+}
+.heading-section
+{
+    background-image: url(doctor/blog_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.heading p
+{
+    font-size: 21px;
+    word-spacing: 12px;
+    text-align: center;
+}
+.heading h1
+{
+    font-size: 6rem;
+    text-align: center;
+    padding: 10px;
+}
+.consult-btn
+{
+    width: 150px;
+    height: 45px;
+    font-size: 21px;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(5, 199, 150);
+    border-radius: 5px;
+    border: none;
+}
+.consult-btn:hover
+{
+    background-color: rgb(65, 69, 70);
+    color: white;
+}
+.doctor-contact-section
+{
+    margin:0 35px;
+}
+.doctor-protection
+{
+     position: relative;
+}
+.chat-with-doctor
+{
+    display: block;
+    margin: 0 auto;
+    margin-top: -50px;
+    z-index: 10;;
+    height: 90px;
+    width: 230px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px rgba(165, 157, 157, 0.801);
+    border-radius: 4px;
+}
+.doctor-div
+{
+ display: flex;
+ padding: 5px;
+}
+.chat-i
+{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px; 
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(37, 37, 228);
+    color: white; 
+}
+.protection-i
+{
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 30px; 
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(15, 194, 75);
+    color: white; 
+}
+.Pharmacy-i
+{
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 30px; 
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(240, 107, 151);
+}
+.doctor-div p
+{
+    font-size: 23px;
+   margin-left: 20px;
+}
+.welcom-section-div
+{
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+.Health-dis
+{
+    margin: 12px;
+}
+.learn-btn
+{
+    width: 150px;
+    height: 45px;
+    font-size: 21px;
+
+   background-color: rgb(5, 199, 150);
+   border-radius: 5px;
+   
+   border: none;
+}
+.learn-btn:hover{
+    background-color: rgb(65, 69, 70);
+    color: white;
+}
+.welcom-doctor-img{
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+}
+.doctors-heading
+{
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+.card-div
+{
+    overflow-x: hidden;
+}
+.card-1
+{
+    width: 220px;
+    z-index: .2;
+    margin:  45px 0;
+    display: block;
+    margin: 0 auto; 
+}
+.doctor-img
+{ 
+    height: 250px;
+    transition: .5s;
+}
+.doctor-img:hover
+{
+    opacity: .6;
+}
+.whatsapp-icon
+{
+    bottom: -100%;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    transition: .5s;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;    
+}
+ .whatsapp-icon i
+ {
+     color: white;
+     margin: 3px;
+     font-size: 30px;
+     padding: 11px;
+     border-radius: 50%;
+     background-color:rgb(5, 199, 150) ;
+}
+.popup-section
+{
+    overflow: hidden;
+    position: relative;
+}
+.popup-section:hover .whatsapp-icon
+{
+    bottom: 0;
+}
+
+.card-details
+{
+    padding: 5px;
+}
+
+
+.owl-prev span
+{
+    font-size: 50px;
+    
+}
+
+.owl-next span
+{
+     font-size: 50px; 
+     background-color: #fff; 
+     background: none;
+     padding: 0;
+     margin: 0;
+}
+.owl-next:hover
+{
+    background-color: none;
+    border: none;
+}
+.owl-nav button:hover
+{
+background: none;
+background-color: none;
+}
+
+/* covid section */
+.latest-news-section
+{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    background-color: rgb(202, 235, 236);
+}
+.latest-news-section h1
+{
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 60px;
+}
+.covid-card-section
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+}
+.covid-card
+{
+    width: 250px;
+    margin: 10px;
+    overflow: hidden;
+}
+.covid-card-img{
+    overflow: hidden;
+}
+.covid-img{
+    height: 180;
+    transition: .3s;
+    height: 160px;
+   
+}
+
+.covid-img:hover
+{
+    transform: scale(1.2);
+}
+.covid-duration
+{
+    display: flex;
+}
+.person-img
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.covid-report
+{
+    display: flex;
+}
+.covid-report p
+{
+    margin-top: 2px;
+    padding-left: 5px;
+    font-size: 15px;
+}
+.clock-duration
+{
+    display: flex;
+    margin:  7px;
+}
+.clock-duration p
+{
+    padding-left: 2px;
+    font-size: 10px;
+    font-weight: bolder;
+}
+/* appointment section */
+
+.appoinment-section
+{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.appoinment-section p
+{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+.input-info
+{
+    height: 50px;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid rgb(56, 54, 54);
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.input-info-number
+{
+    height: 50px;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid rgb(56, 54, 54);
+    width: 615px;
+}
+.info-text
+{
+    resize: none;
+    height: 120px;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid rgb(56, 54, 54);
+    width: 615px;  
+}
+/* footer info */
+footer
+{
+    background-color: rgb(41, 37, 37);
+    overflow-x: hidden;
+    margin-bottom: 0;
+}
+.footer-info-div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.company-info 
+{
+    margin-top: 100px;
+}
+.company-info p
+{
+    font-size: 28px;
+    color: #fff;
+}
+.company-info a
+{ 
+    color: rgb(160, 158, 155);
+    text-decoration: none;
+}
+.company-info a:hover
+{
+    text-decoration: none;
+    color: white;
+}
+.footer-icon
+{
+    margin: 5px;
+    padding: 12px;
+    background-color: rgba(7, 5, 5, 0.924);
+    color: white;
+    border-radius: 50%;
+}
+.footer-icon:hover
+{
+    background-color: rgb(5, 199, 150);
+}
+.ma-code
+{
+    color:rgb(5, 199, 150) ;
+    font-weight: bold;}
+/* Mediam devices (tabs, 600px and down) */
+
+@media only screen and (max-width: 768px) {
+
+    body
+    {
+        overflow-x: hidden;
+    }
+    .search-section
+    {
+       display: none;
+     
+    }
+    .search-btn{
+        height: 40px;
+        border-right: none;
+     
+    }
+    .search-icon{
+        padding: 2px;
+        height: 34px;
+
+    }
+    .nev-manu
+    {
+        display: block;
+
+    }
+    .chat-with-doctor
+    {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 100%; 
+    }
+    .doctor-div p
+    {
+        margin-left: 20px;
+    }
+    .input-info
+    {
+        width: 250px;
+
+    }
+    .input-info-number
+    {
+        width: 515px;
+    }
+    .info-text
+    {
+
+        width: 515px;  
+    }
+}
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 540px) {
+    body
+    {
+        overflow-x: hidden;
+    }
+    .input-info
+    {
+        width: 200px;
+    }
+    .input-info-number
+    {
+        width: 415px;
+    }
+    .info-text
+    {
+        width: 415px;  
+    }
+    .footer-info-div
+    {
+        display: block;
+        margin-left: 10px;
+        padding: 10px;
+    }
+    .company-info a 
+    {
+        display: block;
+    }
+}
+
+
+
