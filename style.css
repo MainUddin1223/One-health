@@ -624,6 +624,43 @@ footer
         display: block;
     }
 }
+@media only screen and (max-width: 540px){
+    .contact-div
+{
+     display: flex;
+     padding: 5px;
+     float: none;
+     justify-content: center;
+  
+}
+   
+
+.social-media-icon
+{
+    float: none;
+    display: flex;
+    justify-content: center;
+}
+
+    .appoinment-section p
+{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+    .input-info
+    {
+        width: 100px;
+    }
+    .input-info-number
+    {
+        width: 215px;
+    }
+    .info-text
+    {
+        width: 215px;  
+    }
+}
 
 
 
