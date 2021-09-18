@@ -257,6 +257,7 @@ body
 }
 .Health-dis
 {
+    padding: 5px;
     margin: 12px;
 }
 .learn-btn
@@ -497,6 +498,9 @@ footer
     overflow-x: hidden;
     margin-bottom: 0;
 }
+.footer-disc{
+    padding: 5px;
+}
 .footer-info-div
 {
     display: flex;
@@ -596,7 +600,7 @@ footer
 }
 /* Extra small devices (phones, 600px and down) */
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 440px) {
     body
     {
         overflow-x: hidden;
@@ -650,15 +654,15 @@ footer
 }
     .input-info
     {
-        width: 100px;
+        width: 130px;
     }
     .input-info-number
     {
-        width: 215px;
+        width: 275px;
     }
     .info-text
     {
-        width: 215px;  
+        width: 275px;  
     }
 }
 
